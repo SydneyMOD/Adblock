@@ -1,0 +1,16 @@
+{
+	"name": "Adblock",
+	"description": "Remove ads in main menu",
+	"author": "SydneyMOD Project Team",
+	"contact": "http://steamcommunity.com/groups/SydneyMOD",
+	"priority": -1,
+  	"version": "1.0",
+	"blt_version": 2,
+	"color": "0.86 0.17 0.26",
+	"image": "adblock.png",
+	"hooks": [
+		{"script_path": "adblock.lua", "hook_id": "lib/managers/menumanager"},
+		{"script_path": "adblock.lua", "hook_id": "lib/managers/menu/menucomponentmanager"},
+		{"script_path": "adblock.lua", "hook_id": "lib/managers/menu/menunodegui"}
+	]
+}
